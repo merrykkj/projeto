@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #000627, #263dbd);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ 
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ 
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+}
+ 
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+ 
+input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+ 
+input[type="text"]:focus, select:focus {
+    border-color: #263dbd;
+    outline: none;
+    background-color: #fff;
+}
+ 
+input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #000000;
+    color: white;
+}
+ 
+input[type="submit"]:active {
+    background-color: #1e8e49;
+}
+ 
+.result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 1000px;
+    display: flex;
+    gap: 20px;
+}
+
+.botao-footer {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
